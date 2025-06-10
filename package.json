@@ -1,0 +1,27 @@
+{
+  "name": "helpdesk-frontend",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/3mrosxgee9h71330?svg=true)](https://ci.appveyor.com/project/SergeiZelenkov/anim)\r **[Посмотреть демо](https://SergeiZelenkov.github.io/anim/)**",
+  "license": "ISC",
+  "author": "Sergei Zelenkov <sz.zelenkov@gmx.de>",
+  "type": "module",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
